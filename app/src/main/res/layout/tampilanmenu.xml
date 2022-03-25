@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="15dp"
+    android:layout_width="match_parent"
+    android:layout_gravity="center_vertical"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:onClick="clickRS"
+            android:padding="10dp"
+            android:id="@+id/ivrumahsakit"
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/rumkit4" />
+
+        <ImageView
+            android:padding="9dp"
+            android:id="@+id/ivpolisi"
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/kantorpolisiku" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:padding="8dp"
+            android:id="@+id/ivmarket"
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/market" />
+
+        <ImageView
+            android:padding="9dp"
+            android:id="@+id/ivsekolah"
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/school" />
+    </TableRow>
+</LinearLayout>
